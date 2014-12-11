@@ -49,10 +49,6 @@ translate ([(length/2)-3,-12.5,-(height/2)+20]){
   }
 }
 
-//translate ([length/2-3,-42/2,0]){
-//cube ([4,42,5]);
-//}
-
 }
 
 // back clip

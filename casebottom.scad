@@ -37,12 +37,7 @@ translate ([axelXPos-3,-70/2,-height/2+9]){
   cube ([6,70,20]);
 }
 
-// hole for the ball wheel
-// to be refined.
-//  translate ([(length/2)-16,0,-(height/2)]) {
-//    roundCornersCube (17,24,20,4);
-//  }
-
+// screw holes for the ball wheel
 translate ([(length/2)-15,(width/2) - 19.5,-(height/2)]) {
   cylinder(r=1, h=3);
 }
